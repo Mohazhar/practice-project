@@ -1,0 +1,39 @@
+.side-container{
+    background-color:rgb(255, 255, 255);
+    color: black;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    top: 60px;
+    width: 80px;
+    z-index: 200;
+    
+}
+.sidemenu-icons{
+    height: 80px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.sidemenu-icons:hover{
+    background-color: rgb(235, 234, 234);
+    cursor: pointer;
+}
+.sidemenu-icons img{
+    height: 25px;
+    
+}
+.sidemenu{
+    padding-left: 10px;
+    padding-top: 10px;
+
+}
+.sidemenu-icons div{
+    font-family: roboto,arial;
+    font-size: 10px;
+    padding-left: 10px;
+    padding-top: 5px;
+    margin-top: 3px;
+}

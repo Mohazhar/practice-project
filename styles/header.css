@@ -1,0 +1,207 @@
+.header{
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;     
+    position: fixed; 
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    background-color: rgb(255, 255, 255);
+    border-bottom-width: 1px;
+    border-bottom-color: rgb(204, 200, 200);
+    border-bottom-style: solid;
+    
+     
+}
+
+.right-section{
+    display: flex;
+    align-items: center;
+    
+}
+.middle-section{ 
+    
+    flex: 1;
+    margin-left: 70px;
+    margin-right: 35px;
+    max-width: 800px;
+    display: flex;
+    align-items: center;
+
+}
+.search-button{
+     height: 44px;
+     width: 70px;
+     background-color: rgb(247, 247, 247);
+     border-color: rgb(192, 192, 192);
+     border-style: solid;
+     border-width: 1px;
+     border-radius: 2px;
+     box-shadow: inset 1px 2px 5px
+    rgb(0, 0, 0, 0.05);
+    margin: -3px;
+    position: relative;
+    padding-top: 5.5px;
+    
+
+}
+.search-button .tooltip{
+    background-color: gray;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-radius: 2px;
+    margin-top: 19px;
+    font-size: 12px;
+    opacity: 0;
+    color: white;
+    pointer-events: none;
+    
+}
+.search-button:hover .tooltip{
+    opacity: 1;
+
+}
+.search-bar{
+    flex: 1;
+    height: 40px;
+    border-style: solid;
+    border-color: rgb(204, 204, 204);
+    border-width: 1px;
+    font-size: 16px;
+    padding-left: 10px;
+    border-color: rgb(192, 192, 192);
+    box-shadow: inset 1px 2px 5px
+    rgb(0, 0, 0, 0.05) ;
+    border-radius: 2px;
+    width: 0;
+
+}
+
+.search-bar::placeholder{
+    font-family: roboto , arial;
+}
+.voice-search-icon{
+    height: 50px;
+    width: 50px;
+    border: none;
+    border-radius: 50px;
+    margin-left: 10px;
+   
+    background-color: rgb(245, 245, 245);
+}
+.voice-search-icon .tooltip {
+    background-color: gray;
+    padding-left: 65px;
+    padding-right: 65px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-radius: 2px;
+    margin-top: 19px;
+    font-size: 12px;
+    opacity: 0;
+    color: white;
+    pointer-events: none;
+    white-space: nowrap;
+}
+.voice-search-icon:hover .tooltip{
+    opacity: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.voice-icon{
+    width: 28px;
+    margin-top: 8px;
+    position: relative;
+
+}
+
+.left-section{
+    width: 250px;
+    display: flex;
+    justify-content: space-between ;
+    margin-left: 50px;
+}
+.upload-icon{
+    width: 25px;
+}
+.create-icon-containar , .apps-icon-containar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+}
+.create-icon-containar .tooltip ,.apps-icon-containar .tooltip ,.notifications-icon-container .tooltip{
+    background-color: gray;
+    color: white;
+    position: absolute;
+    bottom: -30px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 2px;
+    opacity: 0;
+    pointer-events: none;
+    white-space: nowrap;
+    
+}
+.create-icon-containar:hover .tooltip, .apps-icon-containar:hover .tooltip ,.notifications-icon-container:hover .tooltip{
+    opacity: 1;
+    
+}
+.apps-icon{
+    width: 25px;
+}
+.notifications-icon{
+    width: 25px;
+}
+.notifications-icon-container{
+    margin-top: 18px;
+    position: relative;
+    cursor: pointer;
+}
+.notifications-count{
+    font-family: roboto,arial;
+    font-size: 11px;
+    position: absolute;
+    top: 3px;
+    right: 0;
+    background-color: rgb(191, 0, 0);
+    color: white;
+    padding-left: 3px;
+    padding-right: 3px;
+    border-radius: 50px;
+    border-style: solid;
+    border-width: 1px;
+}
+.channel-icon{
+    width: 30px;
+    height: 30px;
+    margin-top: 13px;
+    margin-right: 39px;
+
+
+}
+.search-button-icon{
+    width: 25px;
+    margin-top: 4px;
+    
+
+}
+.hamburger-menu{
+    height: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+    
+}
+.youtube-logo{
+    height: 20px;
+    
+}
